@@ -9,3 +9,6 @@ alias zshconfig="nvim ~/.config/zsh/zshrc"
 alias ohmyzsh="nvim ~/.config/oh-my-zsh/oh-my-zsh"
 alias vi-cfg="nvim ~/.config/nvim/init.vim"
 alias hosts="sudo nvim /etc/hosts"
+
+# Git
+alias git-ignore-perms='git config core.fileMode false'
