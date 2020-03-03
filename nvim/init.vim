@@ -38,7 +38,6 @@ set dir=/var/tmp
 
 let g:python_host_prog='/usr/bin/python2'
 let g:python3_host_prog='/usr/bin/python3'
-let g:vimwiki_list = [{'path': '~/Documents/wiki/', 'syntax': 'markdown', 'ext': '.md'}]
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'vimwiki/vimwiki'
@@ -48,6 +47,9 @@ Plug 'vim-vdebug/vdebug'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 call plug#end()
+
+" Vim Wiki
+let g:vimwiki_list = [{'path': '~/notes', 'syntax': 'markdown', 'ext': '.md'}]
 
 " Nerdtree
 let NERDTreeQuitOnOpen=1
