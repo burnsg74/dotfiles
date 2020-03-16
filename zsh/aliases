@@ -5,10 +5,10 @@ alias vi="nvim"
 ## Quick Edit aliases
 alias aliases="nvim ~/.config/zsh/aliases"
 alias aliases-local="nvim ~/.config/zsh/aliases-local"
-alias zshconfig="nvim ~/.config/zsh/zshrc"
 alias ohmyzsh="nvim ~/.config/oh-my-zsh/oh-my-zsh"
 alias vi-cfg="nvim ~/.config/nvim/init.vim"
 alias hosts="sudo nvim /etc/hosts"
+alias zsh-cfg="nvim ~/.config/zsh/zshrc"
 
 # Git
 alias git-ignore-perms='git config core.fileMode false'
